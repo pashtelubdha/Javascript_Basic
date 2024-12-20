@@ -1,0 +1,92 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+    transition: background-color 0.3s ease-in-out;
+}
+
+/* Navigation Bar */
+nav {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
+nav a {
+    margin-right: 20px;
+    text-decoration: none;
+    color: #333;
+    font-size: 18px;
+}
+
+nav a:hover {
+    color: #555;
+}
+
+/* Canvas Container */
+.canvas {
+    text-align: center;
+    padding: 20px;
+    border: 2px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+}
+
+/* Heading Styles */
+h1 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+h2 {
+    font-size: 1.2rem;
+    margin-top: 1rem;
+}
+
+/* Button Styles */
+.button {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+    border: 2px solid #000;
+    transition: transform 0.2s ease-in-out;
+}
+
+.button:hover {
+    transform: scale(1.1);
+}
+
+/* Color-Specific Buttons */
+#grey {
+    background-color: grey;
+}
+
+#white {
+    background-color: white;
+    border: 2px solid #ccc; /* To make white visible on light background */
+}
+
+#blue {
+    background-color: dodgerblue;
+}
+
+#yellow {
+    background-color: yellow;
+    border: 2px solid goldenrod; /* Slight contrast for yellow */
+}
